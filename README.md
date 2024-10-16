@@ -2,7 +2,7 @@
 This project involves the Verilog implementation of a finite state machine (FSM) designed to manage a security system that uses a three-digit hexadecimal password to control access to a safe. The system allows users to enter a password and, depending on its correctness, either grants access or triggers a lockout if incorrect attempts exceed the allowable limit.
 
 ### Key Features:
-1) **Password Verification Process** : \n
+1) **Password Verification Process** :  
 The FSM operates through a sequence of states starting with an INITIAL state, where the user can enter a new password(3-digit hexadecimal), followed by a VERIFY state, where the entered password is compared with a stored password (saved_pass). If the password matches, the FSM transitions to a Verify Success state, where the user is granted access. If the password is incorrect, the FSM checks the number of trials. If the trials are less than 3, the user is allowed to attempt again. Otherwise, the system transitions to a Freeze and Alarm state.
 
 2) **Security Features** :
