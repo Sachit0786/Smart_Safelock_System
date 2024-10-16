@@ -1,4 +1,4 @@
-# Smart-Safelock-System
+# Smart Safelock System
 This project involves the Verilog implementation of a finite state machine (FSM) designed to manage a security system that uses a three-digit hexadecimal password to control access to a safe. The system allows users to enter a password and, depending on its correctness, either grants access or triggers a lockout if incorrect attempts exceed the allowable limit.
 
 ### Key Features:
@@ -23,3 +23,7 @@ A clock signal (Clock_50 -> 50MHz) provides the necessary timing for FSM transit
 
 
 This security system leverages Verilog-based FSM design principles, offering robust protection for a safe with a customizable password mechanism. It combines practical use of FPGA technology with a clear structure for input handling, password verification, and secure lockout functionality.
+
+## Flowchart
+![_Flowchart_](https://github.com/user-attachments/assets/cbbdec47-eaaf-4a51-9324-319f65c4c549)
+
