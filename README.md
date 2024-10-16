@@ -24,6 +24,10 @@ A clock signal (Clock_50 -> 50MHz) provides the necessary timing for FSM transit
 
 This security system leverages Verilog-based FSM design principles, offering robust protection for a safe with a customizable password mechanism. It combines practical use of FPGA technology with a clear structure for input handling, password verification, and secure lockout functionality.
 
+## Mnemonic Documented State Diagram(MDS)
+![MDS](https://github.com/user-attachments/assets/aefea8f5-70ee-4a81-ae0a-68226591d6c1)
+
+
 ## Flowchart
 ![_Flowchart_](https://github.com/user-attachments/assets/cbbdec47-eaaf-4a51-9324-319f65c4c549)
 
