@@ -16,13 +16,13 @@ Various signals such as o_trials, o_correct, and o_incorrect help monitor the sy
 External keys (KEY0, KEY1, KEY2, and KEY3) serve as input mechanisms, with posedge_detector components ensuring accurate edge detection and debouncing of the signals. The system relies on the switches (SW[3:0]) to input the hexadecimal digits of the password, and a pass_decoder converts the entered digits for comparison against the saved password.
 
 5) **Hardware Implementation** : <br>
-The FSM is implemented and verified using FPGA technology, specifically on a Terasic DE2I-150 FPGA board from Altera. The design leverages the FPGA’s high-performance hardware resources to efficiently manage the password verification process in real-time.
+The FSM is implemented and verified using FPGA technology, specifically on Basys 3 Artix - 7 FPGA board. The design leverages the FPGA’s high-performance hardware resources to efficiently manage the password verification process in real-time.
 
 6) **Clock and Reset Management** : <br>
-A clock signal (Clock_50 -> 50MHz) provides the necessary timing for FSM transitions, and the reset signal (i_reset) ensures that the system can be restarted from a default state when needed.
+A clock signal provides the necessary timing for FSM transitions, and the reset signal (i_reset) ensures that the system can be restarted from a default state when needed.
 
 
-This security system leverages Verilog-based FSM design principles, offering robust protection for a safe with a customizable password mechanism. It combines practical use of FPGA technology with a clear structure for input handling, password verification, and secure lockout functionality.
+This security system leverages Verilog-based FSM design principles, offering robust protection for a safe with a customizable password mechanism. It combines the practical use of FPGA technology with a clear structure for input handling, password verification, and secure lockout functionality.
 
 ## Flowchart
 ![_Flowchart_](https://github.com/user-attachments/assets/cbbdec47-eaaf-4a51-9324-319f65c4c549)
